@@ -1,0 +1,8 @@
+us=open("Users.txt","a")
+n=input("Enter user name:")
+us.write(n)
+us.close()
+da=open("Users.txt","r")
+d=da.read()
+print("User Details")
+print(d)
