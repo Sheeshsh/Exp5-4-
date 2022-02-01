@@ -1,0 +1,6 @@
+class Degree:
+	def getDegree(self):
+		print("I got a Degree")
+class ug(degree):
+	def getDegree(self):
+		print("I got a UGDegree")
